@@ -1,0 +1,71 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "hello3",
+  "dataset_size": 74409921,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/rdteteam/hello3@379a169f879ba77ea835e8673b25bb08f3ab9416/data/chunk-000/file-000.parquet": {
+      "num_bytes": 74408261,
+      "checksum": null
+    }
+  },
+  "download_size": 74408261,
+  "features": {
+    "action": {
+      "feature": {
+        "dtype": "float64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "observation.state": {
+      "feature": {
+        "dtype": "float64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "observation.images.cam_1": {
+      "_type": "Image"
+    },
+    "timestamp": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "frame_index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "episode_index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "task_index": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 148818182,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 74409921,
+      "num_examples": 192,
+      "dataset_name": "hello3"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -113,3 +113,4 @@ log_say("Stop recording")
 robot.disconnect()
 teleop.disconnect()
 dataset.push_to_hub(repo_id=my_repo, private=True)
+dataset.download
