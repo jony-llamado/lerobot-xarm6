@@ -1,0 +1,6 @@
+numpy==1.26.4
+opencv-python==4.10.0.84
+pillow==11.3.0
+python-dotenv==1.1.1
+depthai==2.30.0.0
+psycopg2==2.9.10
